@@ -26,28 +26,24 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-82d00d4a3da05512ec0e.js"
+    "url": "webpack-runtime-f77b77e4b2d1224dd712.js"
   },
   {
-    "url": "commons-0bffea18083fbc4f1798.js"
+    "url": "commons-2e9b559d3d7bed971265.js"
   },
   {
-    "url": "app-65d9430b6cd80376122d.js"
+    "url": "app-e2b2ec51663ed4f2d8b5.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-ec1da19b77b8d79a622f.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d16fe98401afe4622ed7a8de13e6f60b"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "c355c8040c47a63bfb3360e4b7cb6553"
+    "revision": "d4b58cd53fe8eb79cb9a4bb786b875ec"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "ad9fba49e3bad9a238c16800047325ef"
+    "revision": "839ddd885da211e75ffbabf35b7bf286"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -66,12 +62,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/gatsby-starter-spectral`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/gatsby-starter-spectral/app-65d9430b6cd80376122d.js`))) {
+  if (!resources || !(await caches.match(`/app-e2b2ec51663ed4f2d8b5.js`))) {
     return await fetch(event.request)
   }
 
@@ -84,7 +80,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/gatsby-starter-spectral/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
