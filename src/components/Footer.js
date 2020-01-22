@@ -16,7 +16,7 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; HireJordanPowell.com</li>
+        <li>&copy; JordanPowell.online</li>
       </ul>
     </footer>
   );
