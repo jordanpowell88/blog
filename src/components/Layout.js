@@ -46,8 +46,8 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'HireJordanPowell.com - Jordan Powell\'s Portfolio & Blog' },
+                { name: 'keywords', content: 'web development, mobile, graphic design, videography, public speaking, event production' },
               ]}
             >
               <html lang="en" />
