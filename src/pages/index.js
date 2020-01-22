@@ -118,7 +118,7 @@ const IndexPage = () => (
           </li>
         </ul>
 
-        <Link to="/Blog" activeClassName="button fit primary" className="button fit primary icon solid fa-chevron-right">Visit My Blog</Link>
+        <Link to="/blog" activeClassName="button fit primary" className="button fit primary icon solid fa-chevron-right">Visit My Blog</Link>
       </div>
     </section>
 
