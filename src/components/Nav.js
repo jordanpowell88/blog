@@ -35,6 +35,11 @@ export default function Nav({ onMenuToggle = () => {} }) {
                   <Link to="/#">Contact</Link>
                 </Scroll>
               </li>
+              <li>
+                <a href="https://drive.google.com/file/d/1Y7Kko-GN-inQmsd0SOjkoxgxNIoDHl0L/view?usp=sharing" download>
+                  Resume
+                </a>
+              </li>
             </ul>
             <a
               className="close"
