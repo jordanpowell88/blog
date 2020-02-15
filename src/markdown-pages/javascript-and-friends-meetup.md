@@ -1,28 +1,17 @@
 ---
 path: "/blog/2020/javascript-and-friends-meetup"
-date: "2020-02-04"
+date: "2020-02-12"
 title: "Javascript And Friends Online Meetup"
+videoUrl: "https://www.youtube.com/embed/c29YpMQ0xU8"
 ---
 
-I am super excited to announce that I will be presenting at February's Javascript and Friends online meetup. I will be giving a talk titled "NgRx Best Practices for Enterprises." 
-
-## About the Event
-
-#### Agenda
-
-06:30 PM EST- 6:35 PM EST- Networking
-
-06:35 PM EST- 07:35 PM EST - Online Talk by Jordan Powell
-
-07:35 PM EST- 07:45 PM EST - Follow up Questions and Closing
+I was super honored to present at February's Javascript and Friends online meetup. I gave a talk titled "NgRx Best Practices for Enterprises." 
 
 #### Talk Details -
 
 **Title** - NgRx Best Practices for Enterprises
 
 **Description** - Do the letters N - G - R -X make you sad or happy? In this talk we'll go over best practices you should be using when building enterprise angular applications with NgRx. These few tips will help you better organize and structure your applications and leverage NgRx to do all the heavy lifting in your apps. In the end I plan to turn your frown upside down
-
-<a href="https://www.eventbrite.com/e/javascript-and-friends-online-meetup-angular-tickets-90908691343" class="button primary icon solid fa-chevron-right">Register</a>
 
 
 ### About Javascript and Friends
