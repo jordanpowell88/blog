@@ -118,7 +118,7 @@ const IndexPage = () => (
           </li>
         </ul>
 
-        <Link to="/blog" activeClassName="button fit primary" className="button fit primary icon solid fa-chevron-right">Visit My Blog</Link>
+        <Link to="/Blog" activeClassName="button fit primary" className="button fit primary icon solid fa-chevron-right">Visit My Blog</Link>
       </div>
     </section>
 
@@ -132,7 +132,7 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="mailto:jordan@jpdesigning.com" className="button fit primary icon solid fa-envelope">
+            <a href="https://calendly.com/jordanpowell88" target="_blank" className="button fit primary icon solid fa-envelope">
               Contact me
             </a>
           </li>

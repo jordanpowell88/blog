@@ -28,7 +28,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 </Scroll>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <Link to="/Blog">Blog</Link>
               </li>
               <li>
                 <Scroll type="id" element="cta">

@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'JordanPowell.online', // <title>
   manifestName: 'JordanPowell.online',
-  manifestShortName: '', // max 12 characters
+  manifestShortName: 'jordanpowell', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
