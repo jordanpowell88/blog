@@ -21,7 +21,7 @@ export default function BlogTemplate({
                       className="blog-post-content"
                       dangerouslySetInnerHTML={{ __html: html }}
                   />
-                  <Link to="/Blog" className="button small icon solid fa-chevron-left" >Back To Blog</Link>
+                  <Link to="/blog" className="button small icon solid fa-chevron-left" >Back To Blog</Link>
                 </div>
             </section>
         </article>
