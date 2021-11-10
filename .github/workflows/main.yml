@@ -41,7 +41,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: 'public'
+          local-dir: public/
           protocol: ftps
           port: 22
-          server-dir: jordanpowell.online
+          server-dir: jordanpowell.online/
