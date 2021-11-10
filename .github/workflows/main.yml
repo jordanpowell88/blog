@@ -36,10 +36,12 @@ jobs:
         with:
           name: public
       - name: Upload ftp
-        uses: sebastianpopp/ftp-action@releases/v1
+        uses: amKirkland/FTP-Deploy-Action@2.0.0
         with:
-          host: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_USERNAME }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "public"
-          remoteDir: "jordanpowell.online"
+          local-dir: 'public'
+          protocol: ftps
+          port: 22
+          server-dir: jordanpowell.online
