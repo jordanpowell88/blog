@@ -43,4 +43,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: public/
           protocol: ftps
+          port: 22
           server-dir: jordanpowell.online/
