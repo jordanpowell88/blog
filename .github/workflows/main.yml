@@ -36,7 +36,7 @@ jobs:
         with:
           name: public
       - name: Upload ftp
-        uses: amKirkland/FTP-Deploy-Action@2.0.0
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
