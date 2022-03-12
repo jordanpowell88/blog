@@ -40,7 +40,7 @@ const IndexPage = () => (
             A Little More <strong>About</strong> Me
           </h2>
           <p>
-          Jordan is a self taught software engineer who is passionate about writing "good code" that is easy to read, test and maintain over time. He has over a decade of freelance experience in web &amp; mobile development, marketing, design and video production. He also serves as the CEO &amp; Co-Founder for the non-profit Dream On: Global.
+          Jordan is a self taught software engineer who is passionate about writing "good code" that is easy to read, test and maintain over time. He has over a decade of freelance experience in software development, marketing, design and video production. He also serves as the CEO &amp; Co-Founder for the non-profit Dream On: Global.
           </p>
           <blockquote>Those Who Dream The Most...Do The Most</blockquote>
         </header>
@@ -54,10 +54,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Web Development
+            Software Development
           </h2>
           <p>
-          Websites are my specialty. I'll build you the sharp and professional website you deserve! Regardless of your budget I can deliver the perfect solution to best meet your needs. Be unique and make your business stand out from the rest!
+          Software is my specialty. From Fortune 100 companies to the local mom and pops, I've built software for all of them. Regardless of your budget I can deliver the perfect solution to best meet your needs. Be unique and make your business stand out from the rest!
           </p>
         </div>
       </section>
@@ -67,10 +67,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Mobile App Development
+            Consulting
           </h2>
           <p>
-          Did you know their have been over 100 billion app downloads worldwide between the apple app store and the google play store? Mobile apps become more essential for your businesses's success each and every day. No need to spend crazy money from a big city agency when I am right in your backyard!
+          For as long as I can remember, I have always had a passion to help others. This love for people and fixing problems has fueled my passion for consulting. Regardless if you are someone who is looking to start a software career or you are an enterprise looking for some outside help, I'd love to help!
           </p>
         </div>
       </section>
@@ -99,22 +99,22 @@ const IndexPage = () => (
         </header>
         <ul className="features">
           <li className="icon solid fa-code">
-            <h3>Web Development</h3>
+            <h3>Software</h3>
           </li>
-          <li className="icon solid fa-mobile">
-            <h3>Mobile Development</h3>
+          <li className="icon solid fa-briefcase">
+            <h3>Consulting</h3>
           </li>
           <li className="icon solid fa-paint-brush">
-            <h3>Graphic Design</h3>
+            <h3>Graphics</h3>
           </li>
           <li className="icon solid fa-camera">
             <h3>Videography</h3>
           </li>
           <li className="icon solid fa-bullhorn">
-            <h3>Public Speaking</h3>
+            <h3>Speaking</h3>
           </li>
           <li className="icon solid fa-users">
-            <h3>Event Production</h3>
+            <h3>Events</h3>
           </li>
         </ul>
 
