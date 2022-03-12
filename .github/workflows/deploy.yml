@@ -1,4 +1,4 @@
-name: Gatsby Publish
+name: Blog Publish
 on:
   push:
     branches: [master]
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [16.x]
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node-version }}
@@ -16,13 +16,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: npm install & deploy
         run: |
-          npm i
+          npm ci
           npm run deploy
       - name: Upload public dir
         uses: actions/upload-artifact@v1
         with:
-          name: public
-          path: public
+          name: deploy
+          path: public/
         env:
           CI: true
   deploy:
@@ -34,14 +34,12 @@ jobs:
       - name: Download public dir
         uses: actions/download-artifact@v1
         with:
-          name: public
+          name: deploy
       - name: Upload ftp
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        uses: sebastianpopp/ftp-action@releases/v1
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: public/
-          protocol: ftps
-          port: 22
-          server-dir: jordanpowell.online/
+          localDir: 'public'
+          remoteDir: 'jordanpowell.online'
