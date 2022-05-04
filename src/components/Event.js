@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 const Event = ({
     date,
     event,
-    talk,
+    title,
     location,
     url
 }) => {
@@ -12,8 +12,8 @@ const Event = ({
     return (
         <Link to={url}>
             <li className="icon solid fa-bullhorn">
-                <h3>{event}</h3>
-                <p>{talk}</p>
+                <h4>{event}</h4>
+                <p>{title}</p>
                 <p>{location}</p>
                 <p>{newDate}</p>
             </li>

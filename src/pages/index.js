@@ -23,7 +23,7 @@ const IndexPage = ({
       date={edge.node.frontmatter.date}
       event={edge.node.frontmatter.event}
       location={edge.node.frontmatter.location}
-      talk={edge.node.frontmatter.talk}
+      title={edge.node.frontmatter.title}
       url={edge.node.frontmatter.url}
     />
   ) 
@@ -178,7 +178,7 @@ export default IndexPage;
 export const eventQuery = graphql`
   query {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date ]}
+      sort: { order: ASC, fields: [frontmatter___date ]}
       filter: { frontmatter: { path: { regex: "?:/events/" }}}
     ) {
       edges {
