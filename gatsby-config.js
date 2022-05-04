@@ -28,6 +28,13 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/events`,
+      },
+    },
     `gatsby-transformer-remark`,
   ],
 };
