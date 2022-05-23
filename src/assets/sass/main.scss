@@ -1079,6 +1079,10 @@
 	padding: 0;
 	width: 100%;
 
+	> a {
+		width:100%
+	}
+
 	li {
 		@include padding(4em, 4em, (0,0,0,2em));
 		display: block;
