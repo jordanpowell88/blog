@@ -8,14 +8,13 @@ const Event = ({
     location,
     url
 }) => {
-    const newDate = new Date(date).toLocaleString('en-us', { month: 'long', day: '2-digit', year: 'numeric'})
     return (
         <Link to={url}>
             <li className="icon solid fa-bullhorn">
                 <h4>{event}</h4>
                 <p>{title}</p>
                 <p>{location}</p>
-                <p>{newDate}</p>
+                <p>{date}</p>
             </li>
         </Link>
     )
