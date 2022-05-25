@@ -187,7 +187,7 @@ export const eventQuery = graphql`
           frontmatter {
             title
             path
-            date
+            date(formatString: "MMMM DD, YYYY")
             videoUrl
             event
             location
