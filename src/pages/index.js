@@ -17,7 +17,9 @@ const IndexPage = ({
   }
 }) => {
   console.log(edges)
-  const Events = edges.map(edge =>
+  const Events = edges.filter(
+    (edge) => new Date(edge.node.frontmatter.date) >= new Date()
+  ).map(edge =>
     <Event
       key={edge.node.frontmatter.id}
       date={edge.node.frontmatter.date}
