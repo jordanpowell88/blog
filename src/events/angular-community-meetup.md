@@ -1,8 +1,8 @@
 ---
 path: "/events/angular-community-meetup"
-date: "2022-06-28"
+date: "2022-08-23"
 event: "Angular Community Meetup"
-title: "Testing Multiple Domains or Origins in Cypress"
+title: "Countdown to ng-conf"
 location: "Online"
-url: "https://www.meetup.com/angularcommunity/events/dxcltsydcjblc/"
+url: "https://angularcommunity.net/home"
 ---
