@@ -60,7 +60,7 @@ const IndexPage = ({
               A Little More <strong>About</strong> Me
             </h2>
             <p>
-            Jordan is a self taught software engineer who is passionate about writing "good code" that is easy to read, test and maintain over time. He has over a decade of freelance experience in software development, marketing, design and video production. He also serves as the CEO &amp; Co-Founder for the non-profit Dream On: Global.
+            Jordan is a GDE (Google Developer Expert) and a self taught software engineer who is passionate about writing "good code" that is easy to read, test and maintain over time. He has over a decade of freelance experience in software development, marketing, design and video production. He also serves as the CEO &amp; Co-Founder for the non-profit Dream On: Global.
             </p>
             <blockquote>Those Who Dream The Most...Do The Most</blockquote>
           </header>
