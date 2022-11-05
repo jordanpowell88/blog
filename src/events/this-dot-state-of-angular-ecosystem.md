@@ -1,8 +1,8 @@
 ---
 path: "/events/this-dot-state-of-angular-ecosystem"
-date: "2022-06-07"
-event: "This Dot Media Angular Meetup"
-title: "State of Angular Ecosystem"
+date: "2022-11-15"
+event: "State of Angular Ecosystem"
+title: "Testing in Angular"
 location: "Online"
-url: "https://www.angularmeetup.com/state-of-angular-ecosystem-or-june-2022"
+url: "https://www.youtube.com/watch?v=LgnRDkpSNMM"
 ---
