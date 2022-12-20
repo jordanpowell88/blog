@@ -1,7 +1,7 @@
 ---
 path: "/blog/2022/angular-belgrade-meetup"
 date: "2022-09-01"
-title: "#7 Angular Belgrade Meetup - Brandon Roberts and Jordan Powell"
+title: "Angular Belgrade"
 videoUrl: "https://www.youtube.com/embed/EjVfcPqn3a4"
 ---
 

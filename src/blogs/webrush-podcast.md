@@ -1,7 +1,7 @@
 ---
 path: "/blog/2022/webrush-podcast"
 date: "2022-11-03"
-title: "Episode 208: Cypress with Jordan Powell"
+title: "Web Rush Podcast: Episode 208"
 videoUrl: "https://open.spotify.com/embed/episode/2tLTRJkxipeHA3uGXjDJNx?utm_source=generator"
 ---
 
