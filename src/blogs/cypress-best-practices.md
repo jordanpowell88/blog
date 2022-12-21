@@ -1,7 +1,7 @@
 ---
 path: '/blog/2021/cypress-best-practices'
 date: '2021-10-23'
-title: 'Cypress Best Practices: DevTeam504 Meetup'
+title: 'DevTeam504'
 videoUrl: 'https://www.youtube.com/embed/PPZSySI5ooc'
 ---
 

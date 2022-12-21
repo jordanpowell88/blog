@@ -1,7 +1,7 @@
 ---
 path: "/blog/2022/advanced-cypress-js-drop"
 date: "2022-11-02"
-title: "Cypress: E-2-E Testing, Component Testing, + Advanced Patterns with Jordan Powell | JS Drops"
+title: "JS Drops"
 videoUrl: "https://www.youtube.com/embed/UVEWgVX6esE"
 ---
 
