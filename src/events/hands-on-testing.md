@@ -1,8 +1,8 @@
 ---
-path: "/events/hands-on-testing"
-date: "2022-09-06"
-event: "Hands on Testing"
-title: "How To Write 'No-Code' Cypress Tests"
-location: "Online"
-url: "https://handsontesting.com/"
+path: '/events/hands-on-testing'
+date: '2023-09-05'
+event: 'Hands on Testing'
+title: 'End-to-End, Component and API Testing with Cypress'
+location: 'Online'
+url: 'https://handsontesting.com/'
 ---
