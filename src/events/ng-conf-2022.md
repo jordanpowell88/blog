@@ -1,8 +1,8 @@
 ---
-path: "/events/ng-conf-2022"
-date: "2022-08-31"
-event: "ng conf"
-title: "Migrating From Protractor to Cypress Workshop"
-location: "Salt Lake City, Utah"
-url: "https://2022.ng-conf.org/"
+path: '/events/ng-conf-2023'
+date: '2023-06-15'
+event: 'ng conf'
+title: 'Community Keynote'
+location: 'Salt Lake City, Utah'
+url: 'https://ng-conf.org/'
 ---
