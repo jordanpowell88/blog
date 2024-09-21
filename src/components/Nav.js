@@ -41,7 +41,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 </Scroll>
               </li>
               <li>
-                <a href="https://docs.google.com/document/d/1OAwDtiVtXO5-Bel7z08_JQQSkeEOSTM9RSUwhN8bjRo/edit?usp=sharing" download>
+                <a href="https://drive.google.com/file/d/1d3c-NvEKeOv7aDopO-Bu5LGzASGEd9-z/view?usp=sharing" download>
                   Resume
                 </a>
               </li>

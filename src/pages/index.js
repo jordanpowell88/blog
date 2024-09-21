@@ -16,7 +16,6 @@ const IndexPage = ({
     allMarkdownRemark: { edges }
   }
 }) => {
-  console.log(edges)
   const Events = edges.filter(
     (edge) => new Date(edge.node.frontmatter.date) >= new Date()
   ).map(edge =>
@@ -60,7 +59,9 @@ const IndexPage = ({
               A Little More <strong>About</strong> Me
             </h2>
             <p>
-            Jordan is a GDE (Google Developer Expert) and a self taught software engineer who is passionate about writing "good code" that is easy to read, test and maintain over time. He has over a decade of freelance experience in software development, marketing, design and video production. He currently is a Developer Experience Engineer at Cypress.io and also serves as the CEO &amp; Co-Founder for the non-profit Dream On: Global.
+            As a passionate full-stack software engineer, I specialize in building enterprise applications using TypeScript, React, Angular, GraphQL, and Node.js. With a strong focus on software quality, I'm passionate about automated testing and ensuring that my code not only meets functional requirements but also maintains a high standard of reliability, readability, and performance. As a Google Developer Expert, I'm committed to staying at the forefront of industry trends and best practices, sharing my knowledge through mentoring, contribution to open-source projects, and community engagement. I thrive on tackling complex challenges and delivering solutions that empower users and drive innovation.
+
+            <br /><br />When I am not coding, you will probably find me serving in my role as the co-founder and COO of the non-profit Dream On: Global.
             </p>
             <blockquote>Those Who Dream The Most...Do The Most</blockquote>
           </header>
