@@ -59,11 +59,14 @@ const IndexPage = ({
               A Little More <strong>About</strong> Me
             </h2>
             <p>
-            As a passionate full-stack software engineer, I specialize in building enterprise applications using TypeScript, React, Angular, GraphQL, and Node.js. With a strong focus on software quality, I'm passionate about automated testing and ensuring that my code not only meets functional requirements but also maintains a high standard of reliability, readability, and performance. As a Google Developer Expert, I'm committed to staying at the forefront of industry trends and best practices, sharing my knowledge through mentoring, contribution to open-source projects, and community engagement. I thrive on tackling complex challenges and delivering solutions that empower users and drive innovation.
+            As a Developer Productivity Engineer at Nx, I specialize in optimizing developer workflows, improving build performance, and enhancing software quality at scale. With a strong background as a full-stack engineer, I have deep experience building enterprise applications using TypeScript, React, Angular, GraphQL, and Node.js. Passionate about automation and testing, I prioritize reliability, readability, and performance in every aspect of software development.
 
-            <br /><br />When I am not coding, you will probably find me serving in my role as the co-founder and COO of the non-profit Dream On: Global.
+            <br /><br />As a Google Developer Expert, I stay at the forefront of industry trends, sharing my knowledge through mentoring, open-source contributions, and community engagement. I thrive on solving complex challenges, streamlining development processes, and empowering teams to build better software efficiently.
+
+            <br /><br />Beyond tech, I serve as the co-founder and COO of Dream On: Global, a non-profit dedicated to inspiring individuals to pursue their dreams. Whether coding, optimizing workflows, or making an impact through mentorship, I’m driven by a passion for innovation and meaningful change.    
+
+
             </p>
-            <blockquote>Those Who Dream The Most...Do The Most</blockquote>
           </header>
         </div>
       </section>

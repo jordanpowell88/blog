@@ -1,14 +1,14 @@
 module.exports = {
-  siteTitle: 'JordanPowell.online', // <title>
-  manifestName: 'JordanPowell.online',
-  manifestShortName: 'jordanpowell', // max 12 characters
+  siteTitle: 'JordanPowell88.com', // <title>
+  manifestName: 'JordanPowell88.com',
+  manifestShortName: 'jordanpowell88', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/website-icon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'JordanPowell.online',
+  heading: 'Jordan Powell',
   subHeading: 'I Solve Your Problems By Creating Cool Things For The Internet',
   // social
   socialLinks: [
